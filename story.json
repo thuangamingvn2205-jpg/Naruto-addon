@@ -1,0 +1,1317 @@
+[
+ {
+  "id": "academy_01",
+  "arc": "Học viện",
+  "rank": "academy",
+  "title": "Ngày tốt nghiệp Học viện",
+  "story": "Iruka-sensei triệu tập cả lớp: để nhận băng đô Làng Lá, mỗi học viên phải qua bài thi thực hành. Hãy chứng tỏ tay nghề ném vũ khí của em.",
+  "objectives": [
+   {
+    "type": "use",
+    "target": "shuriken",
+    "count": 10,
+    "text": "Ném phi tiêu Shuriken luyện tập"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 80,
+   "ryo": 100,
+   "items": [
+    {
+     "id": "narutomod:shuriken",
+     "count": 8
+    }
+   ]
+  }
+ },
+ {
+  "id": "academy_02",
+  "arc": "Học viện",
+  "rank": "academy",
+  "title": "Mizuki và Cuộn Cấm Thuật",
+  "story": "Mizuki dụ Naruto đánh cắp Cuộn Cấm Thuật khỏi tòa nhà Hokage, rồi lộ mặt phản bội. Hãy ngăn hắn lại — và nhận lấy băng đô của mình.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Mizuki",
+    "count": 1,
+    "text": "Hạ gục Mizuki"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Mizuki",
+    "health": 40,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 200,
+   "ryo": 300,
+   "items": [
+    {
+     "id": "narutomod:konoha_headband",
+     "count": 1
+    }
+   ],
+   "promote": "genin"
+  }
+ },
+ {
+  "id": "genin_01",
+  "arc": "Đội 7",
+  "rank": "genin",
+  "title": "Bài kiểm tra chuông của Kakashi",
+  "story": "Kakashi Hatake đặt ra bài thi sinh tử: hai cái chuông cho ba học trò. Chỉ khi phối hợp đồng đội, bạn mới vượt qua.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Kakashi",
+    "count": 1,
+    "text": "Hạ gục Kakashi (huấn luyện)"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Kakashi Hatake (Huấn luyện)",
+    "health": 60,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 250,
+   "ryo": 300
+  }
+ },
+ {
+  "id": "genin_02",
+  "arc": "Đội 7",
+  "rank": "genin",
+  "title": "Nhiệm vụ hạng D: Bắt mèo Tora",
+  "story": "Con mèo Tora của vợ Daimyo lại bỏ trốn. Đội 7 phải lùng sục khắp làng — nhiệm vụ nhỏ nhưng khiến Naruto phát cáu.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 150,
+    "text": "Truy lùng khắp làng (di chuyển 150 block)"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:cod",
+    "count": 2,
+    "text": "Chuẩn bị 2 con cá làm mồi nhử"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 200,
+   "ryo": 400,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 2
+    },
+    {
+     "id": "narutomod:fireball_scroll",
+     "count": 1
+    }
+   ]
+  }
+ },
+ {
+  "id": "genin_03",
+  "arc": "Đội 7",
+  "rank": "genin",
+  "title": "Hạng C: Hộ tống Tazuna",
+  "story": "Nhiệm vụ hộ tống tưởng chừng đơn giản bỗng thành hạng A khi Quỷ Huynh Đệ (Gozu & Meizu) phục kích giữa đường.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 250,
+    "text": "Hộ tống Tazuna về Xứ Sóng (250 block)"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Quỷ Huynh Đệ",
+    "count": 2,
+    "text": "Hạ gục Quỷ Huynh Đệ"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Quỷ Huynh Đệ Gozu",
+    "health": 45,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Quỷ Huynh Đệ Meizu",
+    "health": 45,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 350,
+   "ryo": 600
+  }
+ },
+ {
+  "id": "genin_04",
+  "arc": "Đội 7",
+  "rank": "genin",
+  "title": "Quỷ nhân Zabuza",
+  "story": "Zabuza Momochi, Quỷ Nhân Làng Sương Mù, chặn đường với thanh Kubikiribōchō. Trận chiến trong màn sương bắt đầu.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Zabuza",
+    "count": 1,
+    "text": "Hạ gục Zabuza Momochi"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Zabuza Momochi",
+    "health": 130,
+    "count": 1,
+    "distance": 18
+   }
+  ],
+  "rewards": {
+   "xp": 500,
+   "ryo": 800,
+   "items": [
+    {
+     "id": "narutomod:throwing_kunai",
+     "count": 8
+    }
+   ]
+  }
+ },
+ {
+  "id": "genin_05",
+  "arc": "Đội 7",
+  "rank": "genin",
+  "title": "Haku và Băng Độn",
+  "story": "Haku — cậu bé mang Kekkei Genkai Băng Độn — bảo vệ Zabuza bằng những tấm gương băng. Hãy phá vỡ chúng.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Haku",
+    "count": 1,
+    "text": "Hạ gục Haku"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:stray",
+    "name": "Haku",
+    "health": 80,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 500,
+   "ryo": 800
+  }
+ },
+ {
+  "id": "genin_06",
+  "arc": "Đội 7",
+  "rank": "genin",
+  "title": "Cây cầu Vĩ Đại",
+  "story": "Để giải phóng Xứ Sóng khỏi Gato, dân làng cùng Đội 7 hoàn tất cây cầu — sau này được gọi là Cầu Naruto.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Gato",
+    "count": 8,
+    "text": "Đánh bại lính đánh thuê của Gato"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:oak_planks",
+    "count": 32,
+    "text": "Gom 32 ván gỗ sồi để xây cầu"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:pillager",
+    "name": "Lính đánh thuê của Gato",
+    "health": 22,
+    "count": 8,
+    "distance": 18
+   }
+  ],
+  "rewards": {
+   "xp": 600,
+   "ryo": 1000,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 3
+    }
+   ]
+  }
+ },
+ {
+  "id": "exam_01",
+  "arc": "Kỳ thi Chunin",
+  "rank": "genin",
+  "title": "Đơn đăng ký Kỳ thi Chunin",
+  "story": "Kakashi đề cử Đội 7 tham gia Kỳ thi Chunin. Hãy chuẩn bị giấy tờ và vũ khí cho kỳ thi khắc nghiệt nhất đời genin.",
+  "objectives": [
+   {
+    "type": "collect",
+    "target": "minecraft:paper",
+    "count": 3,
+    "text": "Chuẩn bị 3 tờ giấy (đơn đăng ký)"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:iron_ingot",
+    "count": 2,
+    "text": "Mang theo 2 thỏi sắt làm vũ khí"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 200,
+   "ryo": 300
+  }
+ },
+ {
+  "id": "exam_02",
+  "arc": "Kỳ thi Chunin",
+  "rank": "genin",
+  "title": "Phần thi viết của Ibiki",
+  "story": "Ibiki Morino ra đề bất khả thi — chỉ ai biết thu thập thông tin mà không bị phát hiện mới qua được.",
+  "objectives": [
+   {
+    "type": "collect",
+    "target": "minecraft:book",
+    "count": 1,
+    "text": "Mang theo 1 quyển sách (ghi chép)"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:ink_sac",
+    "count": 1,
+    "text": "Mang theo 1 túi mực"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 250,
+   "ryo": 300
+  }
+ },
+ {
+  "id": "exam_03",
+  "arc": "Kỳ thi Chunin",
+  "rank": "genin",
+  "title": "Rừng Tử Thần",
+  "story": "Anko đưa thí sinh vào Rừng Tử Thần, nơi thú dữ và ninja nước ngoài rình rập. Rồi một luồng chakra kinh hoàng xuất hiện: Orochimaru.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "minecraft:spider",
+    "name": "Rắn khổng lồ",
+    "count": 6,
+    "text": "Diệt rắn khổng lồ trong rừng"
+   },
+   {
+    "type": "travel",
+    "count": 150,
+    "text": "Chạy thoát khỏi Orochimaru (150 block)"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:spider",
+    "name": "Rắn khổng lồ",
+    "health": 24,
+    "count": 6,
+    "distance": 12
+   },
+   {
+    "entity": "minecraft:evoker",
+    "name": "Orochimaru",
+    "health": 220,
+    "count": 1,
+    "distance": 24
+   }
+  ],
+  "rewards": {
+   "xp": 700,
+   "ryo": 600
+  }
+ },
+ {
+  "id": "exam_04",
+  "arc": "Kỳ thi Chunin",
+  "rank": "genin",
+  "title": "Vòng sơ loại: Kiba Inuzuka",
+  "story": "Trận đấu đơn đầu tiên. Kiba và Akamaru chiến đấu như một thể thống nhất — bạn phải nhanh hơn họ.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Kiba",
+    "count": 1,
+    "text": "Hạ gục Kiba Inuzuka"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Kiba Inuzuka",
+    "health": 60,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 400,
+   "ryo": 500
+  }
+ },
+ {
+  "id": "exam_05",
+  "arc": "Kỳ thi Chunin",
+  "rank": "genin",
+  "title": "Chung kết: Neji Hyuga",
+  "story": "Thiên tài tộc Hyuga tuyên bố số phận không thể thay đổi. Hãy chứng minh điều ngược lại như Naruto đã làm.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Neji",
+    "count": 1,
+    "text": "Hạ gục Neji Hyuga"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Neji Hyuga",
+    "health": 120,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 600,
+   "ryo": 800
+  }
+ },
+ {
+  "id": "exam_06",
+  "arc": "Kỳ thi Chunin",
+  "rank": "genin",
+  "title": "Đại chiến Konoha",
+  "story": "Orochimaru và Làng Cát phát động tấn công giữa lễ chung kết. Gaara hóa thành quái thú Shukaku. Bảo vệ ngôi làng!",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Lính Âm Ẩn",
+    "count": 12,
+    "text": "Đánh bại lính Âm Ẩn"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Gaara",
+    "count": 1,
+    "text": "Hạ gục Gaara (Shukaku)"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:zombie",
+    "name": "Lính Âm Ẩn",
+    "health": 20,
+    "count": 12,
+    "distance": 20
+   },
+   {
+    "entity": "minecraft:ravager",
+    "name": "Gaara (Shukaku)",
+    "health": 260,
+    "count": 1,
+    "distance": 24
+   }
+  ],
+  "rewards": {
+   "xp": 1200,
+   "ryo": 2000,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 5
+    }
+   ],
+   "promote": "chunin"
+  }
+ },
+ {
+  "id": "tsunade_01",
+  "arc": "Tìm Tsunade",
+  "rank": "chunin",
+  "title": "Truy tìm Tsunade",
+  "story": "Sau cái chết của Đệ Tam, Jiraiya dẫn Naruto đi tìm Sannin Tsunade để mời cô làm Ngũ Đại Hokage. Trên đường, Jiraiya dạy Naruto Rasengan.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 400,
+    "text": "Lên đường tìm Tsunade (400 block)"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:gold_ingot",
+    "count": 5,
+    "text": "Gom 5 thỏi vàng trả nợ cờ bạc cho Tsunade"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 500,
+   "ryo": 500,
+   "items": [
+    {
+     "id": "narutomod:rasengan_scroll",
+     "count": 1
+    }
+   ]
+  }
+ },
+ {
+  "id": "tsunade_02",
+  "arc": "Tìm Tsunade",
+  "rank": "chunin",
+  "title": "Rèn luyện Rasengan",
+  "story": "Rasengan — kỹ thuật chỉ Đệ Tứ Hokage từng thành thạo. Hãy hoàn thiện nó trước khi quá muộn.",
+  "objectives": [
+   {
+    "type": "use",
+    "target": "rasengan",
+    "count": 8,
+    "text": "Tung Rasengan trúng mục tiêu 8 lần"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 600,
+   "ryo": 500
+  }
+ },
+ {
+  "id": "tsunade_03",
+  "arc": "Tìm Tsunade",
+  "rank": "chunin",
+  "title": "Kabuto & Orochimaru",
+  "story": "Orochimaru và Kabuto phục kích khi Tsunade chấp nhận lời mời. Cô vượt qua nỗi sợ máu để chiến đấu, và trở thành Ngũ Đại Hokage.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Kabuto",
+    "count": 1,
+    "text": "Hạ gục Kabuto Yakushi"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Orochimaru",
+    "count": 1,
+    "text": "Đẩy lùi Orochimaru"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:evoker",
+    "name": "Kabuto Yakushi",
+    "health": 100,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:evoker",
+    "name": "Orochimaru",
+    "health": 250,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 900,
+   "ryo": 1500,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 3
+    }
+   ]
+  }
+ },
+ {
+  "id": "sasuke_01",
+  "arc": "Truy đuổi Sasuke",
+  "rank": "chunin",
+  "title": "Sasuke bỏ làng",
+  "story": "Sasuke chọn con đường của sức mạnh, rời Konoha theo Âm Tứ Tấu. Đội Cứu Viện do Shikamaru dẫn đầu lên đường.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 300,
+    "text": "Truy đuổi Sasuke (300 block)"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Âm Tứ Tấu",
+    "count": 4,
+    "text": "Hạ gục Âm Tứ Tấu"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:pillager",
+    "name": "Âm Tứ Tấu - Jirobo",
+    "health": 70,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:pillager",
+    "name": "Âm Tứ Tấu - Kidomaru",
+    "health": 70,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:pillager",
+    "name": "Âm Tứ Tấu - Sakon",
+    "health": 70,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:pillager",
+    "name": "Âm Tứ Tấu - Tayuya",
+    "health": 70,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 1000,
+   "ryo": 1500
+  }
+ },
+ {
+  "id": "sasuke_02",
+  "arc": "Truy đuổi Sasuke",
+  "rank": "chunin",
+  "title": "Thung lũng Chung Cuộc",
+  "story": "Naruto và Sasuke đối đầu bên thác nước, giữa Rasengan và Chidori. Sasuke rời đi, mang theo một lời hứa chưa thành.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Sasuke",
+    "count": 1,
+    "text": "Hạ gục Sasuke Uchiha (Ấn Nguyền)"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Sasuke Uchiha (Ấn Nguyền)",
+    "health": 260,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 1500,
+   "ryo": 2500
+  }
+ },
+ {
+  "id": "shp_01",
+  "arc": "Naruto Shippuden",
+  "rank": "chunin",
+  "title": "Hai năm rưỡi rèn luyện",
+  "story": "Naruto cùng Jiraiya tu luyện suốt hai năm rưỡi; Sasuke ở bên Orochimaru; Sakura học y thuật từ Tsunade. Ai cũng mạnh hơn.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 500,
+    "text": "Rèn luyện dã ngoại (500 block)"
+   },
+   {
+    "type": "use",
+    "target": "rasengan",
+    "count": 15,
+    "text": "Luyện Rasengan 15 lần"
+   },
+   {
+    "type": "use",
+    "target": "fireball",
+    "count": 10,
+    "text": "Luyện Hỏa độn 10 lần"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 1000,
+   "ryo": 1000,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 3
+    }
+   ]
+  }
+ },
+ {
+  "id": "shp_02",
+  "arc": "Naruto Shippuden",
+  "rank": "chunin",
+  "title": "Giải cứu Kazekage Gaara",
+  "story": "Akatsuki bắt Gaara để chiết xuất Nhất Vĩ. Đội Kakashi đuổi theo Deidara và Sasori.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Sasori",
+    "count": 1,
+    "text": "Hạ gục Sasori"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Deidara",
+    "count": 1,
+    "text": "Hạ gục Deidara"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:evoker",
+    "name": "Sasori",
+    "health": 220,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:witch",
+    "name": "Deidara",
+    "health": 180,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 1800,
+   "ryo": 3000
+  }
+ },
+ {
+  "id": "shp_03",
+  "arc": "Naruto Shippuden",
+  "rank": "chunin",
+  "title": "Đội Yamato — Hạt giống Mộc Độn",
+  "story": "Đội Kakashi có thêm Đội trưởng Yamato, người sống sót duy nhất sau các thí nghiệm tế bào Hashirama của Orochimaru và sở hữu Mộc Độn. Anh dạy bạn những kỹ thuật cơ bản.",
+  "objectives": [
+   {
+    "type": "collect",
+    "target": "minecraft:oak_log",
+    "count": 32,
+    "text": "Gom 32 khúc gỗ sồi để luyện Mộc Độn"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:oak_sapling",
+    "count": 8,
+    "text": "Gom 8 cây non"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 900,
+   "ryo": 800,
+   "items": [
+    {
+     "id": "narutomod:wood_clone_scroll",
+     "count": 1
+    },
+    {
+     "id": "narutomod:wood_house_scroll",
+     "count": 1
+    }
+   ],
+   "unlock": [
+    "mokuton"
+   ]
+  }
+ },
+ {
+  "id": "shp_04",
+  "arc": "Naruto Shippuden",
+  "rank": "chunin",
+  "title": "Luyện tập Mộc Độn",
+  "story": "Yamato yêu cầu bạn thành thạo Mộc Phân Thân và dựng nhà gỗ Tứ Trụ Gia để cắm trại giữa rừng như Đội 7.",
+  "objectives": [
+   {
+    "type": "use",
+    "target": "wood_clone",
+    "count": 3,
+    "text": "Thi triển Mộc Phân Thân 3 lần"
+   },
+   {
+    "type": "use",
+    "target": "wood_house",
+    "count": 2,
+    "text": "Dựng nhà Tứ Trụ Gia 2 lần"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 1000,
+   "ryo": 800
+  }
+ },
+ {
+  "id": "shp_05",
+  "arc": "Naruto Shippuden",
+  "rank": "chunin",
+  "title": "Hidan & Kakuzu — Cái chết của Asuma",
+  "story": "Cặp đôi Akatsuki bất tử Hidan và Kakuzu sát hại Asuma Sarutobi. Shikamaru thề báo thù.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Hidan",
+    "count": 1,
+    "text": "Hạ gục Hidan"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Kakuzu",
+    "count": 1,
+    "text": "Hạ gục Kakuzu"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Hidan",
+    "health": 280,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:ravager",
+    "name": "Kakuzu",
+    "health": 320,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 2500,
+   "ryo": 4000,
+   "items": [
+    {
+     "id": "narutomod:wood_prison_scroll",
+     "count": 1
+    },
+    {
+     "id": "narutomod:wood_spear_scroll",
+     "count": 1
+    }
+   ],
+   "promote": "jonin"
+  }
+ },
+ {
+  "id": "jonin_01",
+  "arc": "Akatsuki",
+  "rank": "jonin",
+  "title": "Cầu Thiên Địa",
+  "story": "Yamato dẫn Đội 7 tới Cầu Thiên Địa gặp Sasuke; anh dùng Mộc Độn để kiềm chế Naruto khi Cửu Vĩ trỗi dậy.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 500,
+    "text": "Tới Cầu Thiên Địa (500 block)"
+   },
+   {
+    "type": "use",
+    "target": "wood_prison",
+    "count": 3,
+    "text": "Dùng Tứ Trụ Lao 3 lần"
+   },
+   {
+    "type": "use",
+    "target": "wood_spear",
+    "count": 3,
+    "text": "Dùng Đại Thụ Thương 3 lần"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 1500,
+   "ryo": 1500,
+   "items": [
+    {
+     "id": "narutomod:wood_dragon_scroll",
+     "count": 1
+    }
+   ]
+  }
+ },
+ {
+  "id": "jonin_02",
+  "arc": "Akatsuki",
+  "rank": "jonin",
+  "title": "Truy đuổi Itachi",
+  "story": "Itachi Uchiha và Kisame — cặp đôi Akatsuki khét tiếng. Sasuke thề giết anh trai, còn bạn phải ngăn bi kịch.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Itachi",
+    "count": 1,
+    "text": "Hạ gục Itachi Uchiha"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Kisame",
+    "count": 1,
+    "text": "Hạ gục Kisame Hoshigaki"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Itachi Uchiha",
+    "health": 350,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:ravager",
+    "name": "Kisame Hoshigaki",
+    "health": 330,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 3000,
+   "ryo": 5000
+  }
+ },
+ {
+  "id": "jonin_03",
+  "arc": "Akatsuki",
+  "rank": "jonin",
+  "title": "Pain tấn công Konoha",
+  "story": "Nagato điều khiển Lục Đạo Pain, san bằng Konoha bằng Shinra Tensei. Naruto trở về từ núi Myoboku, quyết đối đầu.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Lục Đạo Pain",
+    "count": 6,
+    "text": "Hạ gục Lục Đạo Pain"
+   },
+   {
+    "type": "use",
+    "target": "wood_dragon",
+    "count": 3,
+    "text": "Dùng Mộc Long 3 lần"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Lục Đạo Pain - Thiên Đạo",
+    "health": 110,
+    "count": 1,
+    "distance": 18
+   },
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Lục Đạo Pain - Nhân Gian Đạo",
+    "health": 110,
+    "count": 1,
+    "distance": 18
+   },
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Lục Đạo Pain - Súc Sinh Đạo",
+    "health": 110,
+    "count": 1,
+    "distance": 18
+   },
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Lục Đạo Pain - Tu La Đạo",
+    "health": 110,
+    "count": 1,
+    "distance": 18
+   },
+   {
+    "entity": "minecraft:witch",
+    "name": "Lục Đạo Pain - Ngạ Quỷ Đạo",
+    "health": 110,
+    "count": 1,
+    "distance": 18
+   },
+   {
+    "entity": "minecraft:evoker",
+    "name": "Lục Đạo Pain - Địa Ngục Đạo",
+    "health": 110,
+    "count": 1,
+    "distance": 18
+   }
+  ],
+  "rewards": {
+   "xp": 3500,
+   "ryo": 6000,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 5
+    }
+   ]
+  }
+ },
+ {
+  "id": "jonin_04",
+  "arc": "Akatsuki",
+  "rank": "jonin",
+  "title": "Hội nghị Ngũ Kage",
+  "story": "Năm Kage họp mặt chống Akatsuki. Sasuke xuất hiện tấn công hội nghị, còn Danzo bị cuốn vào âm mưu của chính mình.",
+  "objectives": [
+   {
+    "type": "travel",
+    "count": 600,
+    "text": "Tới nơi họp Ngũ Kage (600 block)"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Danzo",
+    "count": 1,
+    "text": "Hạ gục Danzo Shimura"
+   },
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Mangekyō",
+    "count": 1,
+    "text": "Đánh bại Sasuke (Mangekyō)"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Danzo Shimura",
+    "health": 300,
+    "count": 1,
+    "distance": 16
+   },
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Sasuke Uchiha (Mangekyō)",
+    "health": 300,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 3500,
+   "ryo": 6000,
+   "promote": "elite_jonin"
+  }
+ },
+ {
+  "id": "war_01",
+  "arc": "Đại chiến Ninja lần 4",
+  "rank": "elite_jonin",
+  "title": "Tiền tuyến của Liên Minh Ninja",
+  "story": "Madara tung đội quân Bạch Zetsu. Liên Minh Ninja đứng lên, chia thành các đội tiền phương.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Bạch Zetsu",
+    "count": 20,
+    "text": "Tiêu diệt Bạch Zetsu"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:zombie",
+    "name": "Bạch Zetsu",
+    "health": 24,
+    "count": 20,
+    "distance": 22
+   }
+  ],
+  "rewards": {
+   "xp": 4000,
+   "ryo": 5000,
+   "items": [
+    {
+     "id": "narutomod:ramen",
+     "count": 5
+    }
+   ]
+  }
+ },
+ {
+  "id": "war_02",
+  "arc": "Đại chiến Ninja lần 4",
+  "rank": "elite_jonin",
+  "title": "Obito — Kẻ đeo mặt nạ",
+  "story": "Tobi hóa ra là Obito Uchiha — người từng là đồng đội của Kakashi, nay muốn khởi động Kế hoạch Nguyệt Nhãn.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Obito",
+    "count": 1,
+    "text": "Hạ gục Obito Uchiha"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Obito Uchiha (Tobi)",
+    "health": 480,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 5000,
+   "ryo": 7000,
+   "items": [
+    {
+     "id": "narutomod:wood_forest_scroll",
+     "count": 1
+    },
+    {
+     "id": "narutomod:wood_golem_scroll",
+     "count": 1
+    }
+   ]
+  }
+ },
+ {
+  "id": "war_03",
+  "arc": "Đại chiến Ninja lần 4",
+  "rank": "elite_jonin",
+  "title": "Madara Uchiha — Huyền thoại sống",
+  "story": "Madara sống lại bằng Edo Tensei rồi đoạt Rinnegan. Hashirama đối mặt người bạn cũ — và Mộc Độn lại vang lên giữa chiến trường.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Madara",
+    "count": 1,
+    "text": "Hạ gục Madara Uchiha"
+   },
+   {
+    "type": "use",
+    "target": "wood_golem",
+    "count": 3,
+    "text": "Triệu hồi Mộc Nhân 3 lần"
+   },
+   {
+    "type": "use",
+    "target": "wood_forest",
+    "count": 2,
+    "text": "Dùng Thụ Hải Giáng Thế 2 lần"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Madara Uchiha",
+    "health": 700,
+    "count": 1,
+    "distance": 22
+   }
+  ],
+  "rewards": {
+   "xp": 6500,
+   "ryo": 9000
+  }
+ },
+ {
+  "id": "war_04",
+  "arc": "Đại chiến Ninja lần 4",
+  "rank": "elite_jonin",
+  "title": "Kaguya Ōtsutsuki",
+  "story": "Mẹ của mọi chakra thức tỉnh. Naruto và Sasuke phải hợp sức phong ấn bà.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Kaguya",
+    "count": 1,
+    "text": "Hạ gục Kaguya Ōtsutsuki"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:ravager",
+    "name": "Kaguya Ōtsutsuki",
+    "health": 900,
+    "count": 1,
+    "distance": 24
+   }
+  ],
+  "rewards": {
+   "xp": 8000,
+   "ryo": 12000
+  }
+ },
+ {
+  "id": "war_05",
+  "arc": "Đại chiến Ninja lần 4",
+  "rank": "elite_jonin",
+  "title": "Trận chiến cuối ở Thung lũng Chung Cuộc",
+  "story": "Hai người bạn, hai lý tưởng đối đầu lần cuối bằng tất cả sức mạnh. Khi cát bụi lắng xuống, họ trở lại làm bạn.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "",
+    "name": "Rinnegan",
+    "count": 1,
+    "text": "Đánh bại Sasuke (Rinnegan)"
+   }
+  ],
+  "spawns": [
+   {
+    "entity": "minecraft:vindicator",
+    "name": "Sasuke Uchiha (Rinnegan)",
+    "health": 600,
+    "count": 1,
+    "distance": 16
+   }
+  ],
+  "rewards": {
+   "xp": 9000,
+   "ryo": 15000
+  }
+ },
+ {
+  "id": "kage_01",
+  "arc": "Con đường Hokage",
+  "rank": "elite_jonin",
+  "title": "Bảo vệ ngôi làng",
+  "story": "Sau chiến tranh, Hội đồng Hỏa Quốc xét duyệt ứng viên Hokage. Bạn phải chứng minh mình bảo vệ được làng trước mọi hiểm họa.",
+  "objectives": [
+   {
+    "type": "kill",
+    "target": "minecraft:zombie",
+    "name": "",
+    "count": 15,
+    "text": "Hạ gục 15 zombie"
+   },
+   {
+    "type": "kill",
+    "target": "minecraft:skeleton",
+    "name": "",
+    "count": 15,
+    "text": "Hạ gục 15 skeleton"
+   },
+   {
+    "type": "kill",
+    "target": "minecraft:creeper",
+    "name": "",
+    "count": 10,
+    "text": "Hạ gục 10 creeper"
+   },
+   {
+    "type": "kill",
+    "target": "minecraft:spider",
+    "name": "",
+    "count": 10,
+    "text": "Hạ gục 10 nhện"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 5000,
+   "ryo": 10000
+  }
+ },
+ {
+  "id": "kage_02",
+  "arc": "Con đường Hokage",
+  "rank": "elite_jonin",
+  "title": "Lễ nhậm chức Hokage",
+  "story": "Ước mơ từ thuở bé: trở thành Hokage để mọi người công nhận. Hãy dâng lễ vật và nhận lấy chiếc nón Hokage.",
+  "objectives": [
+   {
+    "type": "collect",
+    "target": "minecraft:diamond",
+    "count": 10,
+    "text": "Dâng 10 kim cương"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:emerald",
+    "count": 10,
+    "text": "Dâng 10 ngọc lục bảo"
+   },
+   {
+    "type": "collect",
+    "target": "minecraft:golden_apple",
+    "count": 3,
+    "text": "Dâng 3 táo vàng"
+   }
+  ],
+  "spawns": [],
+  "rewards": {
+   "xp": 20000,
+   "ryo": 50000,
+   "items": [
+    {
+     "id": "narutomod:kage_hat",
+     "count": 1
+    }
+   ],
+   "promote": "kage"
+  }
+ }
+]

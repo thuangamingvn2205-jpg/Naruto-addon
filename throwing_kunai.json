@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["II", " S"], "key": {"I": {"item": "minecraft:iron_ingot"}, "S": {"item": "minecraft:stick"}}, "result": {"id": "narutomod:throwing_kunai", "count": 4}}
